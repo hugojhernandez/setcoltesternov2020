@@ -12,8 +12,9 @@ public class testclas1 {
 		System.out.println("ejemplo");
 		String exePath = Paths.get("").toAbsolutePath().toString() + File.separator + "drivers" + File.separator;// setera el path de nuestro driver
 		System.setProperty("webdriver.chrome.driver", exePath + "chromedriver.exe");//identificando l .exe para driver
-		WebDriver driver = new ChromeDriver();//creacion en tiemp de ejecución  Chromedriver
+		WebDriver driver = new ChromeDriver();//creacion en tiemp de ejecuciÃ³n  Chromedriver
 		driver.get("https://www.cooltesters.com/");
+		
 	}
 
 }
